@@ -1,0 +1,10 @@
+_id: ut_b047d6a8d4104e8b9d9e3d52f2ab24c0
+type: UnitTest
+parentId: uts_08dea59ddb874473b77b57c270140232
+modified: 1662776972812
+created: 1662776927477
+requestId: req_wrk_7acc90e5afcd403fa8bb707c7e5f8aee630b6954
+name: Returns 200 with delay
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
